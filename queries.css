@@ -26,3 +26,16 @@
         height:fit-content;
     }
 }
+/* Media queries tablet */
+.principal {
+    height: fit-content;
+}
+.principal #obrasGaleria {
+    display: inline-block;
+}
+.principal #obrasGaleria img {
+    height: 500px;
+}
+.principal#galeriaCompleta {
+    height:fit-content;
+}
