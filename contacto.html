@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="queries.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header id="header">  
+        <div class="logo">
+            <a href="index.html"><img src="Logo Pep.jpg" alt="logo"></a>
+            <h1 class="titulos">Pep.Enmarca - Galería de arte virtual</h1>
+        </div>
+        <nav class="menu">
+            <ul id="barra">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="obras.html">Obras</a></li>
+                <li><a href="galeria.html">Galería</a></li>
+                <li><a href="sobrepep.html">Sobre Pep</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="formulario">
+        <h2 class="titulos">¿Consultas? ¿Sos artista y querés mostrar tus obras? ¡Escribinos!</h2>
+        <div id="contacto">
+            <h3 class="titulos">Formulario de contacto</h3>
+            <form action="">
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre">
+                <br><br>
+                <label for="mail">Email</label>
+                <input type="email" id="mail">
+                <br><br>
+                <label for="categoria">Soy</label>
+                <select name="categoria">
+                    <option value="cliente">Cliente</option>
+                    <option value="artista">Artista</option>
+                </select>
+                <br><br>
+                <label for="mensaje" id="mensaje">Tu mensaje</label>
+                <input type="text" id="mensaje">
+                <br><br>
+                <input type="submit" value="Enviar">
+                <br><br>
+                <input type="reset" value="Limpiar">
+            </form>
+        </div>
+    </section>
+    <hr>
+    <footer id="pie">
+        Suscribite a nuestro newsletter acá
+        <br>
+        Seguinos en Instagram: @pep.enmarca
+    </footer>
+</body>
+</html>

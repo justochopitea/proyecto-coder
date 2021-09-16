@@ -1,0 +1,28 @@
+/* Media queries celular*/
+@media screen and (max-width: 480px) {
+    #header .menu #barra li {
+        font-size: 20px;
+    }
+    .principal {
+        height:fit-content;
+    }
+    .titulos {
+        font-size: 20px;
+    }
+    .principal #obrasGaleria {
+        display: block;
+    }
+    .principal .oferta {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-areas:"personalizado guardado"
+                            "personalizado guardado"
+                            "materiales materiales";
+        gap:unset;
+        max-width: fit-content;
+    }  
+    .principal#galeriaCompleta {
+        height:fit-content;
+    }
+}
