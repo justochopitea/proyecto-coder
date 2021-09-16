@@ -39,3 +39,6 @@
 .principal#galeriaCompleta {
     height:fit-content;
 }
+#header .menu {
+    background-color: red;
+}
