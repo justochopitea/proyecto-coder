@@ -39,3 +39,6 @@
 .principal#galeriaCompleta {
     height:fit-content;
 }
+.principal {
+    background-color: red;
+}
